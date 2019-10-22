@@ -17,4 +17,4 @@ def valid_move?(board, index)
   return index.between?(0,8)
 end
 
-valid_move?()
+valid_move?(board, 0)
