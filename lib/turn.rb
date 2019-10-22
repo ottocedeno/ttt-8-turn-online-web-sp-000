@@ -9,6 +9,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+#Converts user input into the appropriate array index
 def input_to_index(user_input)
   return user_input.chomp.to_i - 1
 end
