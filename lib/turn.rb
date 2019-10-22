@@ -11,7 +11,7 @@ end
 
 #Converts user input into the appropriate array index
 def input_to_index(user_input)
-  return user_input.chomp.to_i - 1
+  return user_input.to_i - 1
 end
 
 #Confirms that the players move is infact a valid move
