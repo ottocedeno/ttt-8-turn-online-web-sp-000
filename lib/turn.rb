@@ -37,6 +37,7 @@ def move(board, index, player = "X")
   board[index] = player
 end
 
+#One full turn of TTT 
 def turn(board)
   puts "Please enter 1-9:"
 
