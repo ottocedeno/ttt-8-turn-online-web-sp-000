@@ -23,6 +23,7 @@ def valid_move?(board, index)
   end
 end
 
+#Checks to see if a position already has a token
 def position_taken?(board, index)
   if board[index] == "X" || board[index] == "O"
     true
