@@ -32,6 +32,7 @@ def position_taken?(board, index)
   end
 end
 
+#Makes a valid move
 def move(board, index, player = "X")
   board[index] = player
 end
