@@ -14,7 +14,7 @@ def input_to_index(user_input)
   return user_input.chomp.to_i - 1
 end
 
-
+#Confirms that the players move is infact a valid move
 def valid_move?(board, index)
   if index.between?(0,8)  && !position_taken?(board, index)
     true
